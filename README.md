@@ -75,19 +75,29 @@ $ git clone https://github.com/anshtyagi14/docknodejen.git
 2. Check if Jenkins has admin access. Look for options like "Project Relationship", "Check File Fingerprint", or "My Views" in the left panel. If they are available, you have admin access.
 3. Install the Docker Pipeline Plugin: https://plugins.jenkins.io/docker-workflow/
 4. Configure Docker Hub credentials in Jenkins
-Go to Dashboard > Manage Jenkins > Credentials > System > Global credentials (unrestricted)
-Click on "Add Credentials"
-Select "Username with password" from the "Kind" dropdown.
-Enter your Docker Hub username and password.
-Set the ID as "docker-hub-credentials”.
-Click "OK" to save the credentials.
+- Go to Dashboard > Manage Jenkins > Credentials > System > Global credentials (unrestricted)
+- Click on "Add Credentials"
+- Select "Username with password" from the "Kind" dropdown.
+- Enter your Docker Hub username and password.
+- Set the ID as "docker-hub-credentials”.
+- Click "OK" to save the credentials.
 5. Create a new Pipeline in Jenkins
-Click on "New Item" from the Dashboard
-Enter a name for your Pipeline (e.g., "DockerPipeline")
-Select "Pipeline" and click "OK”.
+- Click on "New Item" from the Dashboard
+- Enter a name for your Pipeline (e.g., "DockerPipeline")
+- Select "Pipeline" and click "OK”.
 6. Configure the Pipeline to use the Git repository
-Go to Dashboard > Your-Pipeline-Name > Configure.
-In the "Pipeline" section, select "Pipeline script from SCM" for "Definition”.
-Choose "Git" for "SCM"
-In "Repositories", enter the URL of the public Git repository in "Repository URL”.
-Click "Save"
+- Go to Dashboard > Your-Pipeline-Name > Configure.
+- In the "Pipeline" section, select "Pipeline script from SCM" for "Definition”.
+- Choose "Git" for "SCM"
+- In "Repositories", enter the URL of the public Git repository in "Repository URL”.
+- Click "Save"
+
+### Step 6: Build the Pipeline
+
+1. Go to the Jenkins Dashboard and click on your Pipeline.
+2. Click on "Build Now" to start the build process.
+3. Monitor the progress in the "Build History" section on the left panel.
+4. 
+Once the build is complete, your Docker image will be pushed to Docker Hub. Check your Docker Hub account to confirm that the image is available.
+
+That's all! You have successfully configured Jenkins to clone a Git repository, build a Docker image, test the image, and push the image to Docker Hub.
