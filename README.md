@@ -72,7 +72,7 @@ $ git clone https://github.com/anshtyagi14/docknodejen.git
 ### Step 5: Clone Git Repository
 
 1. Open Jenkins in your browser (usually at http://localhost:8080) and log in.
-2. Check if Jenkins has admin access. /*Look for options like "Project Relationship", "Check File Fingerprint", or "My Views" in the left panel. If they are available, you have admin access. (Not sure)*/
+2. Check if Jenkins has admin access.
 3. Install the Docker Pipeline Plugin: https://plugins.jenkins.io/docker-workflow/
 4. Configure Docker Hub credentials in Jenkins
 - Go to Dashboard > Manage Jenkins > Credentials > System > Global credentials (unrestricted)
