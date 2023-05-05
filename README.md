@@ -4,12 +4,12 @@ This guide will walk you through the process of using jenkinsfile to clone a Git
 
 ## Prerequisites
 
-Ubuntu 22.04 installed.
-Docker and Docker Compose installed.
-Jenkins installed.
-Node.js installed.
-OpenJDK-11 installed.
-Docker Hub account
+1. Ubuntu 22.04 installed
+2. Docker and Docker Compose installed
+3. Jenkins installed
+4. Node.js installed
+5. OpenJDK-11 installed
+6. Docker Hub account
 
 ## Initial setup
 
