@@ -57,6 +57,8 @@ $ sudo apt install openjdk-11-jdk
 Download and install Jenkins
 
 ```console
+$ sudo apt install net-tools
+
 $ wget https://pkg.jenkins.io/debian/direct/jenkins_2.403_all.deb
 $ sudo dpkg -i jenkins_2.403_all.deb
 ```
