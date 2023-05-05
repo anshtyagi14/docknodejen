@@ -71,7 +71,7 @@ Clone the Git repository containing the Dockerfile and Jenkinsfile
 $ git clone https://github.com/anshtyagi14/docknodejen.git
 ```
 
-### Step 5: Clone Git Repository
+### Step 5: Configure Jenkins
 
 1. Open Jenkins in your browser (usually at http://localhost:8080) and log in.
 2. Check if Jenkins has admin access.
