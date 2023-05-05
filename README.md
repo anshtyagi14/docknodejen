@@ -72,7 +72,7 @@ $ git clone https://github.com/anshtyagi14/docknodejen.git
 ### Step 5: Clone Git Repository
 
 1. Open Jenkins in your browser (usually at http://localhost:8080) and log in.
-2. Check if Jenkins has admin access. #Look for options like "Project Relationship", "Check File Fingerprint", or "My Views" in the left panel. If they are available, you have admin access.
+2. Check if Jenkins has admin access. /*Look for options like "Project Relationship", "Check File Fingerprint", or "My Views" in the left panel. If they are available, you have admin access. (Not sure)*/
 3. Install the Docker Pipeline Plugin: https://plugins.jenkins.io/docker-workflow/
 4. Configure Docker Hub credentials in Jenkins
 - Go to Dashboard > Manage Jenkins > Credentials > System > Global credentials (unrestricted)
@@ -97,7 +97,7 @@ $ git clone https://github.com/anshtyagi14/docknodejen.git
 1. Go to the Jenkins Dashboard and click on your Pipeline.
 2. Click on "Build Now" to start the build process.
 3. Monitor the progress in the "Build History" section on the left panel.
-4. 
+
 Once the build is complete, your Docker image will be pushed to Docker Hub. Check your Docker Hub account to confirm that the image is available.
 
 That's all! You have successfully configured Jenkins to clone a Git repository, build a Docker image, test the image, and push the image to Docker Hub.
