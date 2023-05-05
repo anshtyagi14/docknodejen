@@ -1,4 +1,4 @@
-# Jenkins Pipeline for Docker Image Build and Push to Docker Hub
+# Jenkins pipeline for docker image build and push to docker hub
 
 This guide will walk you through the process of using jenkinsfile to clone a Git repository, build a Docker image from a Dockerfile, test the Docker image, and then push the Docker image to Docker Hub.
 
