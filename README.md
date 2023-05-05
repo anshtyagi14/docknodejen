@@ -61,17 +61,10 @@ $ sudo apt install net-tools
 
 $ wget https://pkg.jenkins.io/debian/direct/jenkins_2.403_all.deb
 $ sudo dpkg -i jenkins_2.403_all.deb
+$ sudo usermod -aG docker jenkins
 ```
 
-### Step 4: Clone Git Repository
-
-Clone the Git repository containing the Dockerfile and Jenkinsfile
-
-```console
-$ git clone https://github.com/anshtyagi14/docknodejen.git
-```
-
-### Step 5: Configure Jenkins
+### Step 4: Configure Jenkins
 
 1. Open Jenkins in your browser (usually at http://localhost:8080) and log in.
 2. Check if Jenkins has admin access.
@@ -97,7 +90,7 @@ $ git clone https://github.com/anshtyagi14/docknodejen.git
 - In "Repositories", enter the URL of the public Git repository in "Repository URL”.
 - Click "Save"
 
-### Step 6: Build the Pipeline
+### Step 5: Build the Pipeline
 
 1. Go to the Jenkins Dashboard and click on your Pipeline.
 2. Click on "Build Now" to start the build process.
