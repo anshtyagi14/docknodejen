@@ -88,6 +88,7 @@ $ sudo usermod -aG docker jenkins
 - In the "Pipeline" section, select "Pipeline script from SCM" for "Definition”.
 - Choose "Git" for "SCM"
 - In "Repositories", enter the URL of the public Git repository in "Repository URL”.
+- Change the "Branch Specifier" to */main.
 - Click "Save"
 
 ### Step 5: Build the Pipeline
